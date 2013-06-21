@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='ASCII'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<chapter id="getting_started">
+  <title>Getting Started</title>
+  <section>
+    <title>First Log In</title>
+    
+    <mediaobject>
+		<imageobject>
+			<imagedata fileref="common/images/desktop.png" />
+		</imageobject>
+	</mediaobject>
+        
+    <para>
+		The first time you turn on your Free Geek computer, it will boot to to a login screen. The username for this account is Default User and the password is freegeek . Every computer that Free Geek builds has the Default User account installed, so we can test its hardware and software. If you can't log in, make sure that the password, freegeek, is in all lower-case letters, with no spaces. When you type characters into the password field they'll appear as dots. The computer does this so that someone looking over your shoulder can't see your password on the screen as you type it. While the Default User account could serve your needs, it is not very secure, as hundreds of people use this same default password. One of your first jobs will thus be to create a new account and delete the Default User account. Fortunately, there is a simple way of doing this, but be warned, this will destroy all files you have created or downloaded to the computer so far.
+	</para>
+  </section>
+  
+  <section>
+    <title>Creating a New User</title>
+	
+	<section>
+		<title>Users and Groups</title>
+		<para>
+			Users on a Unix/Linux system such as Xubuntu, are representations of people with the operating system. Unix, and in turn Linux and Xubuntu on your FreekBox, are Multi User Operating systems. This means you can have as many users as you can find numbers for!
+		</para>
+		<para>
+			Groups are how the Operating System knows what your User is allowed to do. If you want to use a program that is part of the "video" group, then your user must also be part of the "video" group.
+		</para>
+	</section>
+	
+	<section>
+		<title>Creating a new Primary User</title>
+		<para>
+			To create a new user with all new settings and data, there is a tool called oem-config. <emphasis>WARNING! This tool will delete all users and ANY personal data you have downloaded or created on this computer! Use with caution!</emphasis>
+		</para>
+		
+		<orderedlist>
+			<listitem>
+				<para>Log in to the Default User account.</para>
+			</listitem>
+			<listitem>
+				<para>Go to Menu > System > Prepare for shipping to end user. When it asks for your Password, type in freegeek.</para>
+			</listitem>
+			<listitem>
+				<para>The next dialog box will ask you to verify that you want to do an oem-config-prepare. Click the "OK" button, then "Reboot" your computer.</para>
+			</listitem>
+			<listitem>
+				<para>As your computer boots up, Xubuntu will prompt you to select a language (English is the default). Select your language, then click "Continue."</para>
+			</listitem>
+			<listitem>
+				<para>Next you will be asked your location , which will set the timezone on your computer's clock (Los Angeles PST is the default). After selecting your timezone, click "Continue."</para>
+			</listitem>
+			<listitem>
+				<para>You will now be asked to choose your Keyboard layout. The default is English (US). Select your keyboard type and click "Continue."</para>
+			</listitem>
+			<listitem>
+				<para>The following dialog box asks you to create a new account. Be aware that your username should not have any capital letters or spaces , and that some users like "admin," "root," and "oem" are already in use by Xubuntu. These usernames should not be chosen. You must now type in your name, your computer's name (it will create one for you), and your password in the "Choose a password" box. As you type the password in, the system will tell you how strong the password you typed is. Make sure you choose a strong password. Write your password down and save it somewhere safe and secure (not taped to your computer), so if you forget it, you will have a location to look it up in. After typing in your password, click "Continue."</para>
+			</listitem>
+		</orderedlist>
+		
+		<para>
+			<emphasis>CHOOSE A STRONG PASSWORD!</emphasis> Linux is very secure and virus resistant, and therefore the few remaining ways of hacking have to do with user settings and actions, such as easy-to-guess passwords.
+		</para>
+	</section>
+  </section>
+  
+  <section>
+		<title>The Administrator ( You ) and Users on Xubuntu</title>
+		<para>
+			If you wish to have more than one user account on your machine , you can do this using the Users and Groups application (Menu > System > Users and Groups). To add a new user , click on "Add" ( green plus sign ). Enter your current password when it asks you to Authenticate, then click "Authenticate." You will be asked for the name and the username of the user you wish to create . Enter this information , then click "OK." A dialog box will now ask you for a "New password" for the user. Enter the password you wish to use for this account in the New Password box and again in the Confirmation box, then click "OK."
+		</para>
+		<para>
+			When you create a user on a computer you are doing a few things. For one, you're creating the user's home folder. Each user has their own home folder and uses it to store their private data and preferences. Each user can make permanent changes in their home folder to the way everything on Xubuntu looks and behaves. This won't affect the preferences of the other users. Still , there are tasks that some users can't do and that only the root user or administrator can do. The administrator can do anything , look at everything, and change everything. By default the first user you create (that's you!) is the administrator.
+		</para>
+		<para>
+			On this computer you won't be able to do certain things, for example, install software, unless you are the administrator and you enter your password before doing some tasks. This makes it harder to mess up your computer.
+		</para>
+	</section>
+	
+	<section id="help">
+		<title>Getting Help</title>
+		<para>
+			If you can't get the username and password to work, try calling Free Geek Tech Support during their open hours. It is possible something went wrong when we set up your computer and the error isn't your fault. Don 't give up hope; there's a way to make it work! Go to section X. in this manual, Getting Help, for Free Geek Tech Support contact information.
+		</para>
+	</section>
+  
+</chapter>

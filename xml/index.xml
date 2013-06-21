@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Here is the master file called book.xml -->
+<!-- Note the word 'book' after DOCTYPE below.-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+	<title>FreekBox Documentation</title>
+	
+	<bookinfo>
+		<abstract>
+			<title>When a phone call just won't do</title>
+			<para>
+				These howto's are here to help you adjust to you new Xubuntu system from Free Geek. Enjoy!
+			</para>
+		</abstract>
+	</bookinfo>
+	
+	<!-- Include intro chapter from external file, intro.xml -->
+	<!-- <xi:include href="chapters/GettingStarted.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+	<xi:include href="GettingStarted.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="DesktopOverview.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Internet.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	
+</book>

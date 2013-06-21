@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='ASCII'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<chapter id="overview">
+	<title>A Brief Overview of the Desktop</title>
+	
+	<section>
+		<title>What got put Where?</title>
+			
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/desktop-numbered.png" format="PNG" scalefit="1" />
+			</imageobject>
+		</mediaobject>
+		
+		<code>
+			sudo service lightdm stop
+		</code>
+		
+		<para>
+			Once logged in, you'll be presented with the Xfce Desktop Environment. A Desktop Environment is a collection of programs that help you operate your computer on a day-to-day basis. This section of the user guide will briefly explain each part of your environment.
+		</para>
+		
+		<para>
+			The Xubuntu desktop has three things that let you use your computer. A Panel at the top (Panel 1), a hidden panel at the bottom (Panel 2), and a desktop space that is extremely similar to that of Windows or Mac. Here is more detail on the most useful parts of your Xubuntu Desktop:
+		</para>
+		
+		<orderedlist>
+			<listitem>
+				<para>
+					<emphasis>Wallpaper:</emphasis> A background image which you can choose. To set a new wallpape, 	right-click on the desktop and choose" Desktop Setting," then select the "Background" tab. Select an image from the displayed backgrounds and click "Close." You can also right click on an image file anywhere on your system and select "Set as Wallpaper." 
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					 <emphasis>Launcher:</emphasis> A list of some commonly run applications. The launcher (Panel 2) only appears when you move your mouse to the bottom of the screen. You can add frequently-used applications to this panel by right clicking on it, selecting "Panel" in the menu that pops up, and clicking on "Add New Items."
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Desktop Icons:</emphasis> Shortcuts to commonly used programs. Files and launchers can be placed on your desktop for quick access. The Desktop folder stores all of these files.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Menu:</emphasis> A categorized list of all the programs currently installed, and available for use, on your system.
+
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Window buttons:</emphasis> After the Places icon, you will see a row of all opened applications (Panel 1).
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>The Notification Area:</emphasis> This area contains icons for various applications, to indicate activity in those applications. Clicking on the various icons pictured above will give these options:
+				</para>
+				
+				<itemizedlist>
+					<listitem>
+						<para>
+							Sound - Mute, volume control, Music Player, and sound settings.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Network manager (the up /down arrow icon or the wifi signal icon) - This is an applet /widget designed to help simplify connecting to the Internet.
+						</para>
+					</listitem>
+				
+					<listitem>
+						<para>
+							Notification - Any updates that are available to the installed system software.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Date and Time - Changes the current date.
+						</para>
+					</listitem>
+					
+				</itemizedlist>
+				<para>
+					Note: the Notification Area may include Battery and Bluetooth notifications (on laptops) and notifications for other running applications.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Virtual Desktops:</emphasis> A configurable set of 2 "virtual desktops," each of which can contain a separate set of running application windows. You can drag an open application, using the top bar of the application, to the right or left side of the screen. This will move that application into the adjacent virtual desktop. You can add more or remove these as you see fit.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Exit Menu:</emphasis> This will appear as your username and is used to Lock screen, Suspend, Hibernate, Reboot, Shut down and Log out on your system. Note that suspend and hibernate will not work on all systems.
+				</para>
+			</listitem>
+		</orderedlist>
+		
+	</section>
+	
+	<section>
+		<title>The Xubuntu Menu System</title>
+		<para>
+			Windows users are probably used to the Start Menu. The Windows Start Menu is essentially the same as the Xubuntu Menu and Places menu. Pretty much everything that you're used to in Windows has an equivalent here, it might just be called something different.
+		</para>
+		
+		<para>
+			Take a look around; make yourself at home . You'll discover lots of useful menus by right - clicking on icons. Try dragging applications from the Menu to the Desktop or to the bottom Launcher (Panel 2). If you're not sure about something, don't change it, especially if it requires your password. Remember, if it ain't broke, don't fix it!
+		</para>
+	</section>
+	
+	<section>
+		<title>What if There 's a Problem ?</title>
+		<para>
+			Two of the common problems new users have are simply not being able to find something or not knowing what it is called on their new system. Some of these questions may be answered later in this manual. If not, you can contact Free Geek Tech Support, or explore features by searching the Internet.
+		</para>
+	</section>
+</chapter>

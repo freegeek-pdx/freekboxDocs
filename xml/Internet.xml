@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='ASCII'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<chapter id="internet">
+	<title>Connecting to the Internet</title>
+	<para>
+		The Internet is an awesome place. A massive virtual world full of information and entertainment awaits you, may still have just one question. How do I connect to the internet? The Xubuntu Operating System on your Freekbox is fully capable of browsing the web and downloading all those cat photos, and sometimes all that is required is to plug in a single cable.
+	</para>
+	
+	<section id="internet.connect">
+		<title>Ways to Connect to the Internet</title>
+		<para>
+			There are 4 ways to connect your Freekbox to the Internet: Dialup, Ethernet, Wifi, and Wimax.
+		</para>
+		<section>
+			<title>Dialup</title>
+			<para>
+				<para>
+					<emphasis role="bold">Dialup</emphasis> is a very old, near obsolete technology for transmitting internet over your phone line. Computers and hardware capable of interpreting this signal are becoming few and far between, even at Free Geek. For long term stability and security we must advise that you research other internet service providers before considering dialup for your internet needs.
+				</para>
+			</para>
+		</section>
+		<section>
+			<title>Ethernet</title>
+			<para>
+				<emphasis role="bold">Ethernet</emphasis> connections are the fastest, most stable, and most secure connections you will find anywhere. They are instant to set up and can deliver blazing fast speed that no other networking interface can come close to. So what is the catch? Well, you have to plug in a wire. Once your modem or router is set up, connect your computer to it with an ethernet cable and you should be watching Youtube in seconds.
+			</para>
+		</section>
+	</section>
+	
+</chapter>
