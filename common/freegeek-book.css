@@ -1,6 +1,6 @@
 
 html{
-	background-color: #FFF;
+	background-color: #EEE;
 }
 
 body > div.book,
@@ -13,7 +13,7 @@ body > div.legalnotice {
 	margin: 0 auto;
 	padding: 3em;
 
-	background-color: #CCC;
+	background-color: #FFF;
 
 	line-height: 1.5em;
 
