@@ -8,7 +8,7 @@
 			
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktop-numbered.png" format="PNG" scalefit="1" />
+				<imagedata fileref="images/desktop-numbered.png" scalefit="1" />
 			</imageobject>
 		</mediaobject>
 		
