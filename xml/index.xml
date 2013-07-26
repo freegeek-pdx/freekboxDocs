@@ -11,8 +11,13 @@
 		<abstract>
 			<title>When a phone call just won't do</title>
 			<para>
-				These howto's are here to help you adjust to you new Xubuntu system from Free Geek. Enjoy!
+				These howto's are here to help you adjust to you new Xubuntu system from <ulink url="http://www.freegeek.org">Free Geek</ulink>. Enjoy!
 			</para>
+			<para>
+				You may want to review the <link linkend="getting_started">Getting Started</link>
+			</para>
+			
+			
 		</abstract>
 	</bookinfo>
 	
