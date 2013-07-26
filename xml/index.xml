@@ -4,7 +4,9 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
 	<title>FreekBox Documentation</title>
-	
+
+	<!-- The 'bookinfo' tag puts the description at the top, rather 
+	than the bottom -->	
 	<bookinfo>
 		<abstract>
 			<title>When a phone call just won't do</title>
