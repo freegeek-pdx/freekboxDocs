@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='ASCII'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<chapter id="contact">
+	<title>How to Contact Tech Support</title>
+	<para>
+		Sometimes computers just refuse to work. Luckily, for that we have Tech Support Interns who can navigate the maze of lag and confusion. These are the ways to get help for your Freekbox.
+	</para>
+	<section>
+		<title>By Phone</title>
+		<para>
+			<emphasis role="bold">Telephone:</emphasis> 503-232-9350
+		</para>
+		<para>
+			Tech Support can be reached at the above phone number. If you don't get an answer, don't worry, we will call back!
+		</para>
+		
+	</section>
+	<section>
+		<title>By email</title>
+		<para>
+			<emphasis role="bold">Email Address:</emphasis> <email>support@freegeek.org</email>
+		</para>
+		<para>
+			The above email address can be used to get help from Tech Support. If you can, please include some details about what it is that happened and what you were doing when it happened.
+		</para>
+		
+	</section>
+	<section>
+		<title>In Person</title>
+		<para>
+			<emphasis role="bold">In past the front desks, and immediately to your left.</emphasis>
+		</para>
+		<para role="hello">
+			Free Geek Tech Support is open from 12:00pm to 5:45pm, Tuesdays through Saturdays.<br/> Feel free to stop by during those hours, if you bring your machine we can solve your issue much easier. We may ask you to leave the machine with us, so please keep in mind that we do not always know exactly how long it will take to diagnose and fix an issue. 
+		</para>
+		<para role="code">
+			rsync -avzh<br />
+			./hello.sh
+		</para>
+		
+	</section>
+</chapter>
