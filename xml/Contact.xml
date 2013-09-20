@@ -3,12 +3,12 @@
 <chapter id="contact">
 	<title>How to Contact Tech Support</title>
 	<para>
-		Sometimes computers just refuse to work. Luckily, for that we have Tech Support Interns who can navigate the maze of lag and confusion. These are the ways to get help for your Freekbox.
+		Sometimes computers just refuse to work. Luckily, for that we have Tech Support Interns who can navigate the maze of lag and obscure errors. These are the ways to get help for your Freekbox.
 	</para>
 	<section>
 		<title>By Phone</title>
 		<para>
-			<emphasis role="bold">Telephone:</emphasis> 503-232-9350
+			<emphasis role="bold">Reach us at:</emphasis> <address><phone>503-232-9350</phone></address>
 		</para>
 		<para>
 			Tech Support can be reached at the above phone number. If you don't get an answer, don't worry, we will call back!
@@ -16,12 +16,12 @@
 		
 	</section>
 	<section>
-		<title>By email</title>
+		<title>By E-mail</title>
 		<para>
-			<emphasis role="bold">Email Address:</emphasis> <email>support@freegeek.org</email>
+			<emphasis role="bold">Send to:</emphasis> <email>support@freegeek.org</email>
 		</para>
 		<para>
-			The above email address can be used to get help from Tech Support. If you can, please include some details about what it is that happened and what you were doing when it happened.
+			The above email address can be used to get help from Tech Support. If you can, please include details about what it is that happened and what you were doing when it happened.
 		</para>
 		
 	</section>
