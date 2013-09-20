@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ASCII'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<chapter id="testing">
+	<title>A Playground for Various Tags</title>
+	<section>
+		<title>Code Tags</title>
+		<para>
+			Using a custom class in css, use the para tag to create a block of code.
+		</para>
+		<para role="code">
+			rsync -avzh<br />
+			./hello.sh
+		</para>
+	</section>
+	<section>
+		<title>E-mail</title>
+		<para>
+			Here is a tag for email: <email>hello@world.sol</email>
+		</para>
+		
+	</section>
+	
+</chapter>
