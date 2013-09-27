@@ -33,10 +33,7 @@
 		<para role="hello">
 			Free Geek Tech Support is open from 12:00pm to 5:45pm, Tuesdays through Saturdays.<br/> Feel free to stop by during those hours, if you bring your machine we can solve your issue much easier. We may ask you to leave the machine with us, so please keep in mind that we do not always know exactly how long it will take to diagnose and fix an issue. 
 		</para>
-		<para role="code">
-			rsync -avzh<br />
-			./hello.sh
-		</para>
+		
 		
 	</section>
 </chapter>
