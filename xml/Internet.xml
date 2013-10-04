@@ -33,5 +33,23 @@
 			
 		</section>
 	</section>
-	
+	<section>
+		<title>Wireless Connections</title>
+		<para>
+			Many people chose to install a wireless router with their broadband connection, in addition wireless connections can be found in places like the library or in coffee shops. In many cases you will need a passphrase or password in order to gain access to a wireless network. You should note it can be hard to access a consistent, strong wireless connection using free or public connections.
+		</para>
+		<section>
+			<title>Wireless Adapters</title>
+			<para>
+				Most people use wireless broadband by paying for the broadband connection and then purchasing hardware to transmit their Internet connection wirelessly. The transmitter is a wireless router. The receiver is a wireless adapter or wireless card (most laptops have this adapter built in already).
+			</para>
+			<para>
+				What the wireless adapter on your computer looks like depends on whether you've got a desktop computer or a laptop computer. A desktop will usually allow a card that is installed internally (a PCI wireless adapter). If you bought a wireless card from Free Geek's Thrift Store and you have a Free Geek computer, our Tech Support department will be happy to install it for free.
+			</para>
+			<para>
+				A laptop uses either an internal card or one that plugs into a port on the side of the laptop. Alternatively, both laptops and desktops can use wireless adapters that plug into a USB port. These are handy because they're easy to use on more than one computer, but can be harder to get working and may not work as well.
+			</para>
+			
+		</section>
+	</section>
 </chapter>

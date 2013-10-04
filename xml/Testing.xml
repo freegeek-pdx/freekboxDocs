@@ -5,11 +5,16 @@
 	<section>
 		<title>Code Tags</title>
 		<para>
-			Using a custom class in css, use the para tag to create a block of code.
+			Using a custom class in css, use the para tag to create a block of code. Use a single br tag to go to a new line. 
 		</para>
 		<para role="code">
-			rsync -avzh<br />
-			./hello.sh
+			p.code {<br/>
+			border: 1px dashed #999;<br/>
+			padding: 5px 5px 5px 5px;<br/>
+			margin-left: 20px;<br/>
+			background-color: rgb(255, 255, 215);<br/>
+			Font-family: Monospace;<br/>
+			}<br/>
 		</para>
 	</section>
 	<section>

@@ -5,7 +5,7 @@
 	
 	<xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl/xhtml/chunk.xsl"/>
 	
-	<xsl:param name="toc.section.depth" select="1"/>
+	<xsl:param name="toc.section.depth" select="2"/>
 	<xsl:param name="html.stylesheet" select="'freegeek-book.css'"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="chunk.section.depth" select="0" />
