@@ -3,6 +3,19 @@ html{
 	background-color: #EEE;
 }
 
+#masthead
+{
+        max-width: 950px;
+        /*margin: 0 auto 0 0;*/
+
+        color: #04a;
+       /* height: 90px; */
+}
+        #masthead a {
+                border-bottom: none;
+        }
+
+
 body > div.book,
 body > div.chapter,
 body > div.sect1,
