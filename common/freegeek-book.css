@@ -5,16 +5,19 @@ html{
 
 #masthead
 {
-        max-width: 950px;
-        /*margin: 0 auto 0 0;*/
+	max-width: 950px;
+	/*margin: 0 3em 0 auto;*/
+	margin-left: 3em;
+	color: #04a;
 
-        color: #04a;
-       /* height: 90px; */
+	/*height: 90px;*/
 }
-        #masthead a {
-                border-bottom: none;
-        }
-
+#masthead a {
+		border-bottom: none;
+}
+#masthead img {
+	height: 128px;
+}
 
 body > div.book,
 body > div.chapter,
