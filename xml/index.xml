@@ -3,7 +3,7 @@
 <!-- Note the word 'book' after DOCTYPE below.-->
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
-	<title>Map of Your Desktop</title>
+	<title>Free Geek Guides</title>
 
 	<!-- The 'bookinfo' tag puts the description at the top, rather 
 	than the bottom -->	
