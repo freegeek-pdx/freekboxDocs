@@ -12,7 +12,8 @@
 	<xsl:param name="chunk.section.depth" select="0" />
 	
 	<xsl:template match="br">
-	  <br />
+	  <br/>
+	  <fo:block/>
 	</xsl:template>
 	
 </xsl:stylesheet>
