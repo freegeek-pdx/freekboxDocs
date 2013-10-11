@@ -14,9 +14,11 @@
 				These howto's are here to help you adjust to your new Xubuntu system from <ulink url="http://www.freegeek.org">Free Geek</ulink>. Enjoy!
 			</para>
 			<para>
-				You may want to review the <link linkend="getting_started">Getting Started</link>
+				<link linkend="getting_started">Getting Started</link> is a great place to begin.
 			</para>
-			
+			<para>
+				This site is focused on helping you get up and running quickly. For more advanced topics, you may want to browse <ulink url="http://wiki.freegeek.org">The Wiki</ulink>.
+			</para>
 			
 		</abstract>
 	</bookinfo>
