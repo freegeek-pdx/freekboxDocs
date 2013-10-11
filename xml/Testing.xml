@@ -5,17 +5,32 @@
 	<section>
 		<title>Code Tags</title>
 		<para>
-			Using a custom class in css, use the para tag to create a block of code. Use a single br tag to go to a new line. 
+			Using the code tag with some fancy css, create a wiki style code block. Use a single br tag to go to a new line. 
 		</para>
-		<para role="code">
-			p.code {<br/>
+		<code>
+			code.code {<br/>
 			border: 1px dashed #999;<br/>
 			padding: 5px 5px 5px 5px;<br/>
 			margin-left: 20px;<br/>
 			background-color: rgb(255, 255, 215);<br/>
 			Font-family: Monospace;<br/>
 			}<br/>
+		</code>
+		<para>
+			Here is the implementation of that block in the xml file:
 		</para>
+		<code>
+			&lt;code &gt; <br/>
+				code.code {&lt;br/&gt; <br/>
+				border: 1px dashed #999;&lt;br/&gt; <br/>
+				padding: 5px 5px 5px 5px;&lt;br/&gt; <br/>
+				margin-left: 20px;&lt;br/&gt; <br/>
+				background-color: rgb(255, 255, 215);&lt;br/&gt; <br/>
+				Font-family: Monospace;&lt;br/&gt; <br/>
+				}&lt;br/&gt; <br/>
+			&lt;/code &gt; <br/>
+		</code>
+		
 	</section>
 	<section>
 		<title>E-mail</title>

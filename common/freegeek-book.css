@@ -163,9 +163,12 @@ p.code {
 }
 
 code.code {
+  display:block;
   border: 1px dashed #999;
-  padding: 3px 3px 3px 3px;
-  margin-left: 0.5in;
+  padding: 5px 5px 5px 5px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 215);
+  Font-family: Monospace;
 }
 
 span.chapter {
