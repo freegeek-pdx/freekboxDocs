@@ -3,16 +3,18 @@
 <!-- Note the word 'book' after DOCTYPE below.-->
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
-	<title>Free Geek Guides</title>
+	<title>Free Geek Starter Kit</title>
 
 	<!-- The 'bookinfo' tag puts the description at the top, rather 
 	than the bottom -->	
 	<bookinfo>
 		<abstract>
 			<title>When a phone call just won't do</title>
+			<!-- use the 'web' snippet to create ulink. ulinks are for linking to outside the document. Always put the 'http://' in front. -->
 			<para>
 				These howto's are here to help you adjust to your new Xubuntu system from <ulink url="http://www.freegeek.org">Free Geek</ulink>. Enjoy!
 			</para>
+			<!-- Use the 'link' snippet to create an in-house link. This can be used to send the user to a specific chapter or section, if an id was specified. The Getting Started section has id="getting_started", which is used by the link tag. -->
 			<para>
 				<link linkend="getting_started">Getting Started</link> is a great place to begin.
 			</para>
@@ -24,7 +26,8 @@
 	</bookinfo>
 	
 	<!-- Include intro chapter from external file, intro.xml -->
-	<!-- <xi:include href="chapters/GettingStarted.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+	<!-- <xi:include href="chapters/Foo.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+	<!-- All you need to change is the path to the .xml file you want to appear in the Table of Contents. That .xml file must start with a 'chapter' tag with an 'id' attribute. You can create what you need to get started with the 'new' snippet in a blank file. -->
 	<xi:include href="GettingStarted.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="DesktopOverview.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Internet.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
