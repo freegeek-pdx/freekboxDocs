@@ -10,7 +10,9 @@
 			<imagedata fileref="images/desktop.png" />
 		</imageobject>
 	</mediaobject>
-        
+    
+    
+    
     <para>
 		The first time you turn on your Free Geek computer, it will boot to to a login screen. The username for this account is Default User and the password is freegeek . Every computer that Free Geek builds has the Default User account installed, so we can test its hardware and software. If you can't log in, make sure that the password, freegeek, is in all lower-case letters, with no spaces. When you type characters into the password field they'll appear as dots. The computer does this so that someone looking over your shoulder can't see your password on the screen as you type it. While the Default User account could serve your needs, it is not very secure, as hundreds of people use this same default password. One of your first jobs will thus be to create a new account and delete the Default User account. Fortunately, there is a simple way of doing this, but be warned, this will destroy all files you have created or downloaded to the computer so far.
 	</para>
