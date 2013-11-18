@@ -12,10 +12,6 @@
 			</imageobject>
 		</mediaobject>
 		
-		<code>
-			sudo service lightdm stop
-		</code>
-		
 		<para>
 			Once logged in, you'll be presented with the Xfce Desktop Environment. A Desktop Environment is a collection of programs that help you operate your computer on a day-to-day basis. This section of the user guide will briefly explain each part of your environment.
 		</para>
