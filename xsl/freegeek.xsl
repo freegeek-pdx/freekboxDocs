@@ -10,6 +10,10 @@
 	<xsl:param name="html.stylesheet" select="'freegeek-book.css'"/>
 	<xsl:param name="chunker.output.indent" select="'yes'"/>
 	<xsl:param name="chunk.section.depth" select="0" />
+	<xsl:param name="generate.toc">
+		book toc
+		chapter toc
+	</xsl:param>
 	
 	<xsl:template match="br">
 	  <br/>
