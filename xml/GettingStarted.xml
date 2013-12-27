@@ -39,25 +39,25 @@
 		
 		<orderedlist>
 			<listitem>
-				<para>Log in to the Default User account.</para>
+				Log in to the Default User account.
 			</listitem>
 			<listitem>
-				<para>Go to Menu > System > Prepare for shipping to end user. When it asks for your Password, type in freegeek.</para>
+				Go to Menu > System > Prepare for shipping to end user. When it asks for your Password, type in freegeek.
 			</listitem>
 			<listitem>
-				<para>The next dialog box will ask you to verify that you want to do an oem-config-prepare. Click the "OK" button, then "Reboot" your computer.</para>
+				The next dialog box will ask you to verify that you want to do an oem-config-prepare. Click the "OK" button, then "Reboot" your computer.
 			</listitem>
 			<listitem>
-				<para>As your computer boots up, Xubuntu will prompt you to select a language (English is the default). Select your language, then click "Continue."</para>
+				As your computer boots up, Xubuntu will prompt you to select a language (English is the default). Select your language, then click "Continue."
 			</listitem>
 			<listitem>
-				<para>Next you will be asked your location , which will set the timezone on your computer's clock (Los Angeles PST is the default). After selecting your timezone, click "Continue."</para>
+				Next you will be asked your location , which will set the timezone on your computer's clock (Los Angeles PST is the default). After selecting your timezone, click "Continue."
 			</listitem>
 			<listitem>
-				<para>You will now be asked to choose your Keyboard layout. The default is English (US). Select your keyboard type and click "Continue."</para>
+				You will now be asked to choose your Keyboard layout. The default is English (US). Select your keyboard type and click "Continue."
 			</listitem>
 			<listitem>
-				<para>The following dialog box asks you to create a new account. Be aware that your username should not have any capital letters or spaces , and that some users like "admin," "root," and "oem" are already in use by Xubuntu. These usernames should not be chosen. You must now type in your name, your computer's name (it will create one for you), and your password in the "Choose a password" box. As you type the password in, the system will tell you how strong the password you typed is. Make sure you choose a strong password. Write your password down and save it somewhere safe and secure (not taped to your computer), so if you forget it, you will have a location to look it up in. After typing in your password, click "Continue."</para>
+				The following dialog box asks you to create a new account. Be aware that your username should not have any capital letters or spaces , and that some users like "admin," "root," and "oem" are already in use by Xubuntu. These usernames should not be chosen. You must now type in your name, your computer's name (it will create one for you), and your password in the "Choose a password" box. As you type the password in, the system will tell you how strong the password you typed is. Make sure you choose a strong password. Write your password down and save it somewhere safe and secure (not taped to your computer), so if you forget it, you will have a location to look it up in. After typing in your password, click "Continue."
 			</listitem>
 		</orderedlist>
 		
