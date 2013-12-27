@@ -7,7 +7,15 @@ all:
 pdf:
 	mkdir -p pdf-build
 	xsltproc -xinclude -o pdf-build/test.pdf xsl/pdf.xsl xml/index.xml
-	
+
+.PHONY: epub
+epub:
+	mkdir -p build-epub
+	xsltproc -xinclude -o build-epub/book.epub xsl/epub.xsl xml/index.xml
+	cp -r common/images build-epub/OEBPS/
+	cd epub && zip -0Xq ../build-epub/freekboxDocs.epub mimetype
+	cd build-epub && zip -Xr9Dq freekboxDocs.epub META-INF OEBPS
+
 single:
 	mkdir -p build
 	rsync -r --delete common/ build
@@ -17,4 +25,4 @@ install:
 	rsync -r --delete build/ /var/www/freekboxDocs
 
 clean:
-	-rm -r build pdf-build
+	-rm -r build pdf-build build-epub
